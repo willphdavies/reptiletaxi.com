@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
   .home__top-img {
-    margin-bottom: 15px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 15px;
   }
   .page-home__card {
     width: 100%;
