@@ -1,0 +1,15 @@
+.session {
+  width: 100%;
+  .session__albums {
+    padding-bottom: 75px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .album__container {
+      display: flex;
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+  }
+}

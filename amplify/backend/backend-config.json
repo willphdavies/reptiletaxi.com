@@ -1,0 +1,45 @@
+{
+  "auth": {
+    "allinonetakecom68bd424d": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_allinonetakecom68bd424d_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "allinonetakecom68bd424d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_allinonetakecom68bd424d_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "allinonetakecom68bd424d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_allinonetakecom68bd424d_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "allinonetakecom68bd424d"
+        }
+      ]
+    },
+    "AMPLIFY_auth_allinonetakecom68bd424d_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "allinonetakecom68bd424d"
+        }
+      ]
+    }
+  }
+}

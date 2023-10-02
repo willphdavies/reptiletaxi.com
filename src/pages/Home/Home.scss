@@ -1,0 +1,30 @@
+.page-home {
+  display: flex;
+  flex-direction: column;
+  .home__top-img {
+    margin-bottom: 15px;
+  }
+  .page-home__card {
+    width: 100%;
+    max-width: 400px;
+  }
+  .home__albums {
+    display: flex;
+    flex-wrap: wrap;
+    .album__container {
+      display: flex;
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+      a {
+        width: 100%;
+      }
+    }
+  }
+  .home__bottom-img {
+    margin: 15px auto 75px;
+    width: 100%;
+    max-width: 400px;
+    opacity: 0.8;
+  }
+}

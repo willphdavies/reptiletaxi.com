@@ -1,0 +1,43 @@
+.app-container {
+  display: flex;
+  flex: 1;
+  .container__routes {
+    display: flex;
+    flex: 1;
+  }
+  .app__player {
+    position: fixed;
+    bottom: 0;
+    width: calc(100vw);
+    text-align: center;
+    audio {
+      margin: 0 auto 5px;
+      padding: 0 15px;
+      display: block;
+    }
+    .player__now_playing {
+      margin: auto;
+      margin-bottom: 15px;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}
+.-spacer {
+  flex: 1;
+}
+.-white {
+  color: #fff;
+}
+.-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.-space-between {
+  justify-content: space-between;
+}
+
+.MuiCardMedia-root {
+  max-width: 100%;
+}
